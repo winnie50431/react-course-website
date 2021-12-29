@@ -23,7 +23,8 @@
 
   <h3 align="center">MERN project practice</h3>
   <br/>
-  <a align="center" href="https://course-space.netlify.app/" target="_blank">Live Demo</a>
+  <p align="center"><a href="https://course-space.netlify.app/" target="_black" >Live Demo</a></p>
+  <br/>
 
 [![Product Name Screen Shot][product-screenshot]](https://course-space.netlify.app/)
 
