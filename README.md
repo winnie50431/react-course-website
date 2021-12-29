@@ -1,14 +1,5 @@
 <div id="top"></div>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/winnie50431/react-course-website">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-  <h3 align="center">MERN project practice</h3>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -29,6 +20,8 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
+  <h3 align="center">MERN project practice</h3>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
