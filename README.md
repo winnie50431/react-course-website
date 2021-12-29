@@ -22,8 +22,10 @@
 ## About The Project
 
   <h3 align="center">MERN project practice</h3>
+  <br/>
+  <a align="center" href="https://course-space.netlify.app/" target="_blank">Live Demo</a>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://course-space.netlify.app/)
 
 This system is using React.js as front-end framework, and Node.js, MongoDB as backend server. This kind of project is called MERN project, which is one of the most popular way to create modern websites.
 
