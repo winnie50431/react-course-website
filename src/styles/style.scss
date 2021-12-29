@@ -1,0 +1,113 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// $primary: #483259;
+$primary: #00c9af;
+$secondary: #483259;
+$dark-green: #4b8178;
+$light-green: #c3fcf2;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/buttons";
+
+ul {
+  list-style: none;
+}
+
+#header {
+  background-attachment: scroll, scroll, fixed;
+  background-image: url("../images/top-3200.svg"),
+    linear-gradient(to top, #483259, #39578a, #007ead, #00a5ba, #00c9af),
+    // url("../images/overlay.png"),
+    url("../images/header.jpg");
+  //   background-color: $secondary;
+  background-position: bottom center, top left, center center;
+  background-repeat: repeat-x, repeat, no-repeat;
+  background-size: 3200px 460px, auto, cover;
+  padding: 10em 0 20em 0;
+  position: relative;
+  text-align: center;
+  color: black;
+  .logo {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#footer {
+  background-attachment: scroll;
+  background-color: $dark-green;
+  background-image: url("../images/bottom-3200.svg");
+  background-position: top center;
+  background-repeat: repeat-x;
+  padding: calc(460px + 6em) 0 10em 0;
+  position: absolute;
+  width: 100%;
+  transform: translate(0, -20%);
+  z-index: -1;
+  text-align: center;
+}
+
+/* Icons */
+
+ul.icons {
+  cursor: default;
+
+  li {
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1rem;
+    padding-left: 0.5rem;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    a,
+    span {
+      //   @include vendor("transition", "background-color 0.2s ease-in-out");
+      border-radius: 100%;
+      border: solid 1px _palette(border);
+      display: inline-block;
+      text-align: center;
+      height: 4rem;
+      line-height: 4rem;
+      width: 4rem;
+
+      &:hover {
+        background: _palette(border-bg);
+      }
+    }
+  }
+}
+
+/* Icon */
+
+.icon {
+  border-bottom: none;
+  position: relative;
+  border: rgba(255, 255, 255, 0.3) solid 0.5px;
+  color: #fff;
+  font-size: 2rem;
+  &:hover {
+    transition: all 0.1s ease-in;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+nav {
+  .navbar_logo {
+    height: 3rem;
+  }
+}
